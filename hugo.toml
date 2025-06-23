@@ -3,6 +3,10 @@ languageCode = 'en-uk'
 title = 'Virtual Innovation Consortium'
 theme = 'ananke'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   site_logo = "images/vic_logo.png"
   custom_css = ["custom.css"]   # Optional, just for documentation
