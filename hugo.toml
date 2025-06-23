@@ -1,10 +1,10 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-uk'
-title = 'VIC Project'
+title = 'Virtual Innovation Consortium'
 theme = 'ananke'
 
 [params]
-  site_logo = "images/ras_logo.svg"
+  site_logo = "images/vic_logo.png"
   custom_css = ["custom.css"]   # Optional, just for documentation
   custom_head = ["head-custom.html"]
   testmessage = 'Tttt'
@@ -14,4 +14,10 @@ theme = 'ananke'
   name = "About"
   url = "/about/"
   weight = 2
+
+[[menu.main]]
+  name = "Consortium"
+  url = "/consortium/"
+  weight = 2
+
 
