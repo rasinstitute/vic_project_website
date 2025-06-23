@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-uk'
+title = 'VIC Project'
+theme = 'ananke'
+
+[params]
+  site_logo = "images/ras_logo.svg"
+  custom_css = ["custom.css"]   # Optional, just for documentation
+  custom_head = ["head-custom.html"]
+  testmessage = 'Tttt'
+  description= 'dasddss'
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
