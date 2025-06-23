@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Virtual Innovation Consortium</title>
-    <link>http://localhost:44435/</link>
+    <link>https://example.org/</link>
     <description>Recent content on Virtual Innovation Consortium</description>
     <generator>Hugo</generator>
     <language>en-uk</language>
-    <atom:link href="http://localhost:44435/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:44435/about/</link>
+      <link>https://example.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44435/about/</guid>
+      <guid>https://example.org/about/</guid>
       <description>&lt;p&gt;VIC is an EU-backed initiative tackling the advanced digital skills gap by focusing on Extended Reality (XR)—including Augmented and Virtual Reality. The project brings together universities, research institutions, VET providers, and industry leaders to deliver cutting-edge training in immersive technologies.&#xA;Key deliverables include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A Master’s Programme (ISCED Level 7, 120 ECTS)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Five advanced training self-standing modules&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;An annual XR Summer School&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Designed for both ICT professionals and non-traditional audiences—from educators and healthcare workers to designers and engineers—these programmes support reskilling and upskilling, with a focus on inclusion, innovation, and job-readiness.&#xA;By combining academic excellence with industry collaboration, VIC ensures graduates gain practical, market-aligned skills, boosting employability and contributing to Europe’s digital transformation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Our Consortium</title>
-      <link>http://localhost:44435/consortium/</link>
+      <link>https://example.org/consortium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44435/consortium/</guid>
+      <guid>https://example.org/consortium/</guid>
       <description>&lt;h2 id=&#34;higher-education-partners&#34;&gt;Higher Education Partners&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ISTEC (Portugal): Expertise in computer science, strong industry ties.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;EUNEIZ (Spain): Focus on tech and digital media aligned with job market needs.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;UNINT (Italy): Global outlook, XR in education, and cybersecurity programmes.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;research-institutions&#34;&gt;Research Institutions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ENTI-UB (Spain): Immersive tech, video games, cybersecurity, and a top-tier XR lab.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PoliMI (Italy): Advanced facilities for 3D modelling and virtual interaction.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;RAS Institute (Bulgaria, France, UK): Policy-driven research, strategic EU alignment.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;vet-providers&#34;&gt;VET Providers&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Cacttus Education (Kosovo): Accredited ICT training for network and app development.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project Presentation</title>
-      <link>http://localhost:44435/posts/presentation/</link>
+      <link>https://example.org/posts/presentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44435/posts/presentation/</guid>
+      <guid>https://example.org/posts/presentation/</guid>
       <description>&lt;p&gt;The project addresses Europe&amp;rsquo;s advanced digital skills gap, focusing on Extended Reality (XR) technologies like Augmented and Virtual Reality. By uniting higher education institutions, VET providers, industry, and research organisations, it will create a specialised Master&amp;rsquo;s Programme (ISCED Level 7, 120 ECTS), an advanced training programme with self-standing modules, and an annual Summer School.&lt;/p&gt;</description>
     </item>
   </channel>
