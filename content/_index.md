@@ -18,7 +18,7 @@ VIC is an EU-backed initiative tackling the advanced digital skills gap by focus
 
 ||||
 |-|-|-|
-|![VIC Partner 1](/images/consortium_logos/Vic_01.png)|![VIC Partner 2](/images/consortium_logos/Vic_02.png)|![VIC Partner 3](/images/consortium_logos/Vic_03.png)| 
-|![VIC Partner 4](/images/consortium_logos/Vic_04.png)|![VIC Partner 5](/images/consortium_logos/Vic_05.png)| ![VIC Partner 6](/images/consortium_logos/Vic_06.png)| 
-|![VIC Partner 7](/images/consortium_logos/Vic_07.png)|![VIC Partner 8](/images/consortium_logos/Vic_08.png)| ![VIC Partner 9](/images/consortium_logos/Vic_09.png)|
-||![VIC Partner 10](/images/consortium_logos/Vic_10.png)||
+|![VIC Partner 1](images/consortium_logos/Vic_01.png)|![VIC Partner 2](images/consortium_logos/Vic_02.png)|![VIC Partner 3](images/consortium_logos/Vic_03.png)| 
+|![VIC Partner 4](images/consortium_logos/Vic_04.png)|![VIC Partner 5](images/consortium_logos/Vic_05.png)| ![VIC Partner 6](images/consortium_logos/Vic_06.png)| 
+|![VIC Partner 7](images/consortium_logos/Vic_07.png)|![VIC Partner 8](images/consortium_logos/Vic_08.png)| ![VIC Partner 9](images/consortium_logos/Vic_09.png)|
+||![VIC Partner 10](images/consortium_logos/Vic_10.png)||
