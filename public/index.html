@@ -16,7 +16,7 @@
     
 
     
-<link rel="stylesheet" href="/vic_project_website/ananke/css/main.min.4f776919036cca85d75be80bb25c47f857015069bdb01a3c5da77346fc1cb907.css" >
+<link rel="stylesheet" href="/vic_project_website/ananke/css/main.min.1b097d016396b67e8cb635ad31a666d7b838b8ae1092cca2069fe8b93c36950b.css" >
 
 
 
@@ -63,9 +63,11 @@
 
     
 
+
   
   
-  <header class="cover bg-top" style="background-image: url('https://rasinstitute.github.io/vic_project_website/images/pexels-darlene-alderson-4389971_scaled.jpg');">
+
+  <header class="zoom-bg cover bg-top" style="background-image: url('https://rasinstitute.github.io/vic_project_website/images/pexels-googledeepmind-25626590.jpg');">
     
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
@@ -117,47 +119,55 @@
 
 
 
-
+<script>
+  window.addEventListener('load', () => {
+    const header = document.querySelector('header.zoom-bg');
+    if (header) {
+      header.classList.add('zooming');
+    }
+  });
+</script>
     <main class="pb7" role="main">
       
 
   <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray">
     <p>VIC is an EU-backed initiative tackling the advanced digital skills gap by focusing on Extended Reality (XR)—including Augmented and Virtual Reality. The project brings together universities, research institutions, VET providers, and industry leaders to deliver cutting-edge training in immersive technologies.</p>
 <h3 id="consortium-coordinator">Consortium Coordinator</h3>
-<p><img src="images/consortium_logos/Hlogo.png" alt="coordonator"></p>
+<p><img src="images/consortium_logos/Hlogo.png" alt="coordinator"></p>
 <h3 id="consortium-partners">Consortium Partners</h3>
-<table>
-  <thead>
-      <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><img src="images/consortium_logos/Vic_01.png" alt="VIC Partner 1"></td>
-          <td><img src="images/consortium_logos/Vic_02.png" alt="VIC Partner 2"></td>
-          <td><img src="images/consortium_logos/Vic_03.png" alt="VIC Partner 3"></td>
-      </tr>
-      <tr>
-          <td><img src="images/consortium_logos/Vic_04.png" alt="VIC Partner 4"></td>
-          <td><img src="images/consortium_logos/Vic_05.png" alt="VIC Partner 5"></td>
-          <td><img src="images/consortium_logos/Vic_06.png" alt="VIC Partner 6"></td>
-      </tr>
-      <tr>
-          <td><img src="images/consortium_logos/Vic_07.png" alt="VIC Partner 7"></td>
-          <td><img src="images/consortium_logos/Vic_08.png" alt="VIC Partner 8"></td>
-          <td><img src="images/consortium_logos/Vic_09.png" alt="VIC Partner 9"></td>
-      </tr>
-      <tr>
-          <td></td>
-          <td><img src="images/consortium_logos/Vic_10.png" alt="VIC Partner 10"></td>
-          <td></td>
-      </tr>
-  </tbody>
+<!-- 
+||||
+|-|-|-|
+|![VIC Partner 1](images/consortium_logos/Vic_01.png)|![VIC Partner 2](images/consortium_logos/Vic_02.png)|![VIC Partner 3](images/consortium_logos/Vic_03.png)| 
+|![VIC Partner 4](images/consortium_logos/Vic_04.png)|![VIC Partner 5](images/consortium_logos/Vic_05.png)| ![VIC Partner 6](images/consortium_logos/Vic_06.png)| 
+|![VIC Partner 7](images/consortium_logos/Vic_07.png)|[![VIC Partner 8](images/consortium_logos/Vic_08.png)](https://rasinstitute.com)| ![VIC Partner 9](images/consortium_logos/Vic_09.png)|
+||![VIC Partner 10](images/consortium_logos/Vic_10.png)|| -->
+<table style="width:100%; text-align:center;">
+  <tr>
+    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_01.png" alt="VIC Partner 1" /></td>
+    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_02.png" alt="VIC Partner 2" /></td>
+    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_03.png" alt="VIC Partner 3" /></td>
+  </tr>
+  <tr>
+    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_04.png" alt="VIC Partner 4" /></td>
+    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_05.png" alt="VIC Partner 5" /></td>
+    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_06.png" alt="VIC Partner 6" /></td>
+  </tr>
+  <tr>
+    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_07.png" alt="VIC Partner 7" /></td>
+    <td style="background-color:#ce5db1;">
+      <a href="https://rasinstitute.com">
+        <img src="images/consortium_logos/Vic_08.png" alt="VIC Partner 8" />
+      </a>
+    </td>
+    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_09.png" alt="VIC Partner 9" /></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_10.png" alt="VIC Partner 10" /></td>
+    <td></td>
+  </tr>
 </table>
-
   </article>
 
   

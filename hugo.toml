@@ -4,6 +4,11 @@ title = 'Virtual Innovation Consortium'
 theme = 'ananke'
 favicon = 'favicon.ico'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

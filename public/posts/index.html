@@ -16,7 +16,7 @@
     
 
     
-<link rel="stylesheet" href="/vic_project_website/ananke/css/main.min.4f776919036cca85d75be80bb25c47f857015069bdb01a3c5da77346fc1cb907.css" >
+<link rel="stylesheet" href="/vic_project_website/ananke/css/main.min.1b097d016396b67e8cb635ad31a666d7b838b8ae1092cca2069fe8b93c36950b.css" >
 
 
 
@@ -61,6 +61,7 @@
   </head><body class="ma0 avenir bg-near-white production">
 
     
+
 
   <header>
     <div class="pb3-m pb6-l bg-black">
@@ -112,7 +113,14 @@
 
 
 
-
+<script>
+  window.addEventListener('load', () => {
+    const header = document.querySelector('header.zoom-bg');
+    if (header) {
+      header.classList.add('zooming');
+    }
+  });
+</script>
     <main class="pb7" role="main">
       
   <article class="pa3 pa4-ns nested-copy-line-height">
