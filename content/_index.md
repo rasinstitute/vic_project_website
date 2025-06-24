@@ -9,12 +9,16 @@ cover_dimming_class = "shadow-5"
 
 VIC is an EU-backed initiative tackling the advanced digital skills gap by focusing on Extended Reality (XR)—including Augmented and Virtual Reality. The project brings together universities, research institutions, VET providers, and industry leaders to deliver cutting-edge training in immersive technologies.
 
-### Consortium Coordinator
+
+![coordinator](images/Co-funded_EU.png)
+
+
+## Consortium Coordinator
 
 ![coordinator](images/consortium_logos/Hlogo.png)
 
 
-### Consortium Partners
+## Consortium Partners
 
 
 <!-- 
@@ -27,9 +31,9 @@ VIC is an EU-backed initiative tackling the advanced digital skills gap by focus
 
 <table style="width:100%; text-align:center;">
   <tr>
-    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_01.png" alt="VIC Partner 1" /></td>
+    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_01.png" alt="VIC Partner 1" /></td>
     <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_02.png" alt="VIC Partner 2" /></td>
-    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_03.png" alt="VIC Partner 3" /></td>
+    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_03.png" alt="VIC Partner 3" /></td>
   </tr>
   <tr>
     <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_04.png" alt="VIC Partner 4" /></td>
@@ -38,7 +42,7 @@ VIC is an EU-backed initiative tackling the advanced digital skills gap by focus
   </tr>
   <tr>
     <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_07.png" alt="VIC Partner 7" /></td>
-    <td style="background-color:#ce5db1;">
+    <td style="background-color:#3bc462;">
       <a href="https://rasinstitute.com">
         <img src="images/consortium_logos/Vic_08.png" alt="VIC Partner 8" />
       </a>
@@ -51,3 +55,5 @@ VIC is an EU-backed initiative tackling the advanced digital skills gap by focus
     <td></td>
   </tr>
 </table>
+
+
