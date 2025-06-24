@@ -9,7 +9,7 @@ VIC is an EU-backed initiative tackling the advanced digital skills gap by focus
 
 ### Consortium Coordinator
 
-![coordonator](/images/consortium_logos/Hlogo.png)
+![coordonator](images/consortium_logos/Hlogo.png)
 
 
 ### Consortium Partners
