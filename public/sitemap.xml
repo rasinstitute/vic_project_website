@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/about/</loc>
+    <loc>https://rasinstitute.github.io/vic_project_website/about/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://rasinstitute.github.io/vic_project_website/categories/</loc>
   </url><url>
-    <loc>https://example.org/consortium/</loc>
+    <loc>https://rasinstitute.github.io/vic_project_website/consortium/</loc>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://rasinstitute.github.io/vic_project_website/posts/</loc>
   </url><url>
-    <loc>https://example.org/posts/presentation/</loc>
+    <loc>https://rasinstitute.github.io/vic_project_website/posts/presentation/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://rasinstitute.github.io/vic_project_website/tags/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://rasinstitute.github.io/vic_project_website/</loc>
   </url>
 </urlset>

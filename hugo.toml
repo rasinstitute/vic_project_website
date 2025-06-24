@@ -1,7 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rasinstitute.github.io/vic_project_website/'
 languageCode = 'en-uk'
 title = 'Virtual Innovation Consortium'
 theme = 'ananke'
+favicon = 'favicon.png'
 
 [caches]
   [caches.images]
