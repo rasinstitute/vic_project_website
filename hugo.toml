@@ -1,4 +1,4 @@
-baseURL = 'https://rasinstitute.github.io/vic_project_website/'
+baseURL = 'https://rasinstitute.github.io/vic_project_website'
 languageCode = 'en-uk'
 title = 'Virtual Innovation Consortium'
 theme = 'ananke'
