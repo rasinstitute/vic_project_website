@@ -31,27 +31,27 @@ VIC is an EU-backed initiative tackling the advanced digital skills gap by focus
 
 <table style="width:100%; text-align:center;">
   <tr>
-    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_01.png" alt="VIC Partner 1" /></td>
-    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_02.png" alt="VIC Partner 2" /></td>
-    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_03.png" alt="VIC Partner 3" /></td>
+    <td class='tb-colour-1'><img src="images/consortium_logos/Vic_01.png" alt="VIC Partner 1" /></td>
+    <td class='tb-colour-1'><img src="images/consortium_logos/Vic_02.png" alt="VIC Partner 2" /></td>
+    <td class='tb-colour-2'><img src="images/consortium_logos/Vic_03.png" alt="VIC Partner 3" /></td>
   </tr>
   <tr>
-    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_04.png" alt="VIC Partner 4" /></td>
-    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_05.png" alt="VIC Partner 5" /></td>
-    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_06.png" alt="VIC Partner 6" /></td>
+    <td class='tb-colour-2'><img src="images/consortium_logos/Vic_04.png" alt="VIC Partner 4" /></td>
+    <td class='tb-colour-2'><img src="images/consortium_logos/Vic_05.png" alt="VIC Partner 5" /></td>
+    <td class='tb-colour-1'><img src="images/consortium_logos/Vic_06.png" alt="VIC Partner 6" /></td>
   </tr>
   <tr>
-    <td style="background-color:#ce5db1;"><img src="images/consortium_logos/Vic_07.png" alt="VIC Partner 7" /></td>
-    <td style="background-color:#3bc462;">
+    <td class='tb-colour-2'><img src="images/consortium_logos/Vic_07.png" alt="VIC Partner 7" /></td>
+    <td class='tb-colour-2'>
       <a href="https://rasinstitute.com">
         <img src="images/consortium_logos/Vic_08.png" alt="VIC Partner 8" />
       </a>
     </td>
-    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_09.png" alt="VIC Partner 9" /></td>
+    <td class='tb-colour-1'><img src="images/consortium_logos/Vic_09.png" alt="VIC Partner 9" /></td>
   </tr>
   <tr>
     <td></td>
-    <td style="background-color:#3bc462;"><img src="images/consortium_logos/Vic_10.png" alt="VIC Partner 10" /></td>
+    <td class='tb-colour-1'><img src="images/consortium_logos/Vic_10.png" alt="VIC Partner 10" /></td>
     <td></td>
   </tr>
 </table>

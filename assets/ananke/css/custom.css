@@ -44,3 +44,11 @@
   position: relative;
   z-index: 1; /* Keep nav, logo, text on top */
 }
+
+.tb-colour-1 {
+  background-color:#3bc462;
+}
+
+.tb-colour-2 {
+  background-color: #ce5db1;
+}

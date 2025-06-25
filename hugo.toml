@@ -14,11 +14,12 @@ favicon = 'favicon.ico'
     dir = ':cacheDir/images'
 
 [params]
-  site_logo = "images/vic_logo.png"
+  site_logo = "images/vic_logo_new.png"
   custom_css = ["custom.css"]   # Optional, just for documentation
   custom_head = ["head-custom.html"]
   testmessage = 'Tttt'
   description= 'dasddss'
+  body_classes = 'avenir sans-serif'
 
 [[menu.main]]
   name = "About"
@@ -31,3 +32,7 @@ favicon = 'favicon.ico'
   weight = 2
 
 
+[[menu.main]]
+  name = "Programmes"
+  url = "/programmes/"
+  weight = 2
