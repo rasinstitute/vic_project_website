@@ -31,19 +31,28 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transform: scale(1) rotate(0deg);;
-  transition: transform 60s ease-in-out;
   z-index: 0;
+
+  animation: zoomRotate 300s ease-in-out infinite alternate;
 }
 
-.zoom-bg.zooming::before {
-  transform: scale(5) rotate(90deg);; /* Zoom level */
+@keyframes zoomRotate {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(7) rotate(180deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
 }
 
 .zoom-bg > * {
   position: relative;
-  z-index: 1; /* Keep nav, logo, text on top */
+  z-index: 1;
 }
+
 
 .tb-colour-1 {
   background-color:#3bc462;
@@ -51,4 +60,15 @@
 
 .tb-colour-2 {
   background-color: #ce5db1;
+}
+
+.hov {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hov:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  position: relative;
 }
