@@ -1,9 +1,7 @@
 +++
 title = "Virtual Innovation Consortium"
 featured_image = "images/pexels-googledeepmind-25626590.jpg"
-featured_image_class = 'zoom-container'
 description='Bridging Europe’s Digital Skills Gap Through XR Education'
-msg='dadsadda'
 cover_dimming_class = "shadow-5"
 +++
 
@@ -13,14 +11,14 @@ VIC is an EU-backed initiative tackling the advanced digital skills gap by focus
 ![Co-funded by the EU](images/Co-funded_EU.png)
 
 
-## Consortium Coordinator
+# Consortium Coordinator
 
 
 <a href="https://www.istec.pt/index.php/en/homepage_ing/">
   <img src="images/consortium_logos/Hlogo.png" alt="coordinator">
 </a>
 
-## Consortium Partners
+# Consortium Partners
 
 
 

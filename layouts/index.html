@@ -1,0 +1,139 @@
+{{ define "main" }}
+<section class="pa3 pa5-ns">
+  <div class="mw5 mw7-ns center">
+
+    <h4 class="f4">VIC is an EU-backed initiative tackling the advanced digital skills gap by focusing on Extended Reality (XR)—including Augmented and Virtual Reality. The project brings together universities, research institutions, VET providers, and industry leaders to deliver cutting-edge training in immersive technologies.</h4>    
+  </div>
+</section>
+
+<div class="mw5 mw7-ns center">
+  <h1>Consortium Coordinator</h1>
+    <a href="https://www.istec.pt/index.php/en/homepage_ing/">
+      <img class='b--hot-pink' src="images/consortium_logos/Hlogo.png" alt="coordinator">
+    </a>
+</div>
+
+
+<div class="mw5 mw7-ns center">
+  <h1>Consortium Partners</h1>
+  <table>
+    <tr>
+      <td class='tb-colour-2 hov'>
+        <a href='https://www.youbiquo.eu/'>
+          <img src="images/consortium_logos/Vic_01.png" alt="VIC Partner 1" />
+        </a>
+      </td>
+      <td class='tb-colour-1 hov'>
+        <a href="https://rasinstitute.com">
+          <img src="images/consortium_logos/Vic_08.png" alt="VIC Partner 8" />
+        </a>
+      </td>
+      <td class='tb-colour-2 hov'>
+        <a href='https://www.unicis.tech/'>
+          <img src="images/consortium_logos/Vic_03.png" alt="VIC Partner 3" />
+        </a>  
+      </td>
+    </tr>
+    <tr>
+      <td class='tb-colour-2 hov'>
+        <a href='https://khora.com/'>
+          <img src="images/consortium_logos/Vic_04.png" alt="VIC Partner 4" />
+        </a>
+      </td>
+      <td class='tb-colour-2 hov'>
+        <a href='https://www.euneiz.com/en/'>
+          <img src="images/consortium_logos/Vic_05.png" alt="VIC Partner 5" />
+        </a>
+      </td>
+      <td class='tb-colour-1 hov'>
+        <a href='https://enti.cat/en/'>
+          <img src="images/consortium_logos/Vic_06.png" alt="VIC Partner 6" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class='tb-colour-1 hov'>
+        <a href='https://www.polimi.it/'>
+          <img src="images/consortium_logos/Vic_07.png" alt="VIC Partner 7" />
+        </a>
+      </td>
+      <td class='tb-colour-1 hov'>
+        <a href="https://www.unint.eu/en/">
+          <img src="images/consortium_logos/Vic_02.png" alt="VIC Partner 2" />
+        </a>
+      </td>
+      <td class='tb-colour-1 hov'>
+        <a href='https://www.simplon.co/'>
+          <img src="images/consortium_logos/Vic_09.png" alt="VIC Partner 9" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class='tb-colour-1 hov'>
+        <a href='https://cacttus.education/'>
+          <img src="images/consortium_logos/Vic_10.png" alt="VIC Partner 10" />
+        </a>
+      </td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+
+<div class="pt6">
+  <div class="relative">
+    <div class="z-0">
+        <video width="100%" autoplay loop muted>
+          <source src="videos/11904015_1912_1080.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="absolute top-0 left-0 w-100 h-100 z-1 video-filter"></div>
+
+
+    <!-- Overlay Content -->
+    <div class="absolute top-0 left-0 w-100 h-100 flex flex-column items-center justify-center tc white z-1">
+      <img src="images/Step_Seal_no_bg.png" alt="Logo" class="w8 mb3 " />
+      <h1 class="f2 lh-title video-title">STEP Seal for Highly Innovative Project</h1>
+      <p class="f4 lh-copy">We are proud to announce that the Virtual Innovation Consortium was awarded the STEP Seal. The STEP Seal is a tool to promote and support high-quality projects that contribute to Europe's strategic technological development.</p>
+
+      <img src="images/co_funded_white.png" alt="Bottom Image" class="w5 mt4" />
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 
+  {{ range where .Site.RegularPages "Section" "posts" }}
+    <article class="pa3 pa4-ns bb b--black-10">
+      
+      {{ with .Params.image }}
+        <div class="mb3">
+          <a href="{{ $.RelPermalink }}">
+            <img src="{{ . | relURL }}" class="db w-100 br2 br--top" alt="{{ $.Title }}">
+          </a>
+        </div>
+      {{ end }}
+
+      <h2 class="f3 near-black">
+        <a href="{{ .RelPermalink }}" class="link dark-blue hover-hot-pink">
+          {{ .Title }}
+        </a>
+      </h2>
+
+      <p class="lh-copy measure">
+        {{ .Summary }}
+      </p>
+      
+      <a href="{{ .RelPermalink }}" class="f6 link dim br-pill ba ph3 pv2 mb2 dib dark-blue">
+        Read More
+      </a>
+
+    </article>
+  {{ end }} -->
+
+
+{{ end }}

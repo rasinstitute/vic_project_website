@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'About'
+featured_image = 'images/pexels-googledeepmind-25626593.jpg'
 +++
 
 

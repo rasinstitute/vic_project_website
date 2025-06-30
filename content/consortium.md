@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Our Consortium'
+featured_image='images/pexels-googledeepmind-25626583.jpg'
 +++
 
 

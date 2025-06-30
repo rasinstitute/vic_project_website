@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <section class="mw7 center pa4">
+    <h1 class="f2 lh-title">All Posts</h1>
+
+    {{ range where .Site.RegularPages "Section" "posts" }}
+      <article class="pa3 pa4-ns bb b--black-10">
+        {{ with .Params.image }}
+          <div class="mb3">
+            <a href="{{ $.RelPermalink }}">
+              <img src="{{ . | relURL }}" class="db w-100 br2 br--top" alt="{{ $.Title }}">
+            </a>
+          </div>
+        {{ end }}
+
+        <h2 class="f3 near-black">
+          <a href="{{ .RelPermalink }}" class="link dark-blue hover-hot-pink">
+            {{ .Title }}
+          </a>
+        </h2>
+
+        <p class="lh-copy measure">{{ .Summary }}</p>
+
+        <a href="{{ .RelPermalink }}" class="f6 link dim br-pill ba ph3 pv2 mb2 dib dark-blue">
+          Read More
+        </a>
+      </article>
+    {{ end }}
+  </section>
+{{ end }}

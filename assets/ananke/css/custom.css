@@ -1,21 +1,6 @@
-.test{
-  color: pink;
-  text-align: center;
-  background-color: blue;
-  text-decoration: underline;
-  top:-20rem;
-  position: relative;
-  text-align: center;
-  
-    display:inline-block;
-    color:#444;
-    border:1px solid #CCC;
-    background:#DDD;
-    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
-    cursor:pointer;
-    vertical-align:middle;
-    max-width: 100px;
-    padding: 5px;
+:root {
+  --pink: #ce5db1;
+  --green: #3bc462;
 }
 
 .zoom-bg {
@@ -41,7 +26,7 @@
     transform: scale(1) rotate(0deg);
   }
   50% {
-    transform: scale(7) rotate(180deg);
+    transform: scale(8) rotate(180deg);
   }
   100% {
     transform: scale(1) rotate(360deg);
@@ -55,11 +40,11 @@
 
 
 .tb-colour-1 {
-  background-color:#3bc462;
+  background-color: var(--green);
 }
 
 .tb-colour-2 {
-  background-color: #ce5db1;
+  background-color: var(--pink);
 }
 
 .hov {
@@ -71,4 +56,24 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 2;
   position: relative;
+}
+
+#step-seal {
+  height: 5rem;
+  scale: 0.5;
+  margin-top:-2rem;
+}
+
+.video {
+  width:100%; 
+  height:auto; 
+  display:block;
+}
+
+.video-filter {
+  background-color: var(--green);
+  opacity: 0.6;
+}
+.video-title {
+  color: var(--pink);
 }
