@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Project Presentation'
+image='images/pexels-steve-12891172_scaled.jpg'
 featured_image='images/pexels-steve-12891172_scaled.jpg'
 +++
 
