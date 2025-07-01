@@ -3,6 +3,7 @@ languageCode = 'en-uk'
 title = 'Virtual Innovation Consortium'
 theme = 'ananke'
 favicon = 'favicon.ico'
+copyright='Research, Analysis and Strategy Institute'
 
 [markup]
   [markup.goldmark]
