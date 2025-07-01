@@ -37,7 +37,3 @@ favicon = 'favicon.ico'
   url = "/programmes/"
   weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 2

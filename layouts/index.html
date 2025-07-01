@@ -14,7 +14,7 @@
 </div>
 
 
-<div class="mw5 mw7-ns center">
+<div class="mw5 mw7-ns center pb6">
   <h1>Consortium Partners</h1>
   <table>
     <tr>
@@ -80,60 +80,65 @@
   </table>
 </div>
 
-<div class="pt6">
-  <div class="relative">
-    <div class="z-0">
-        <video width="100%" autoplay loop muted>
-          <source src="videos/11904015_1912_1080.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-    </div>
+<!-- Remove any padding or width-limiting parent div -->
+<div class="w-100" style="margin: 0; padding: 0;">
+  <div class="relative w-100" style="height: 100vh; max-height: 100svh; overflow: hidden;">
 
+    <!-- Video fills the entire screen -->
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      class="absolute top-0 left-0 w-100 h-100"
+      style="object-fit: cover;"
+    >
+      <source src="videos/11904015_1912_1080.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Optional overlay filter -->
     <div class="absolute top-0 left-0 w-100 h-100 z-1 video-filter"></div>
 
-
     <!-- Overlay Content -->
-    <div class="absolute top-0 left-0 w-100 h-100 flex flex-column items-center justify-center tc white z-1">
-      <img src="images/Step_Seal_no_bg.png" alt="Logo" class="w8 mb3 " />
-      <h1 class="f2 lh-title video-title">STEP Seal for Highly Innovative Project</h1>
-      <p class="f4 lh-copy">We are proud to announce that the Virtual Innovation Consortium was awarded the STEP Seal. The STEP Seal is a tool to promote and support high-quality projects that contribute to Europe's strategic technological development.</p>
-
-      <img src="images/co_funded_white.png" alt="Bottom Image" class="w5 mt4" />
-
+    <div class="absolute top-0 left-0 w-100 h-100 flex flex-column items-center justify-center tc white z-2 ph3">
+      <img src="images/Step_Seal_no_bg.png" alt="Logo" class="w4 w5-ns mb3" />
+      <h1 class="f3 f2-ns lh-title video-title">STEP Seal for Highly Innovative Project</h1>
+      <p class="f5 f4-ns lh-copy">We are proud to announce that the Virtual Innovation Consortium was awarded the STEP Seal. The STEP Seal is a tool to promote and support high-quality projects that contribute to Europe's strategic technological development.</p>
+      <img src="images/co_funded_white.png" alt="co-funded byt the EU" class="w5 w5-ns mt4" />
     </div>
+
   </div>
 </div>
 
 
 
-<!-- 
-  {{ range where .Site.RegularPages "Section" "posts" }}
-    <article class="pa3 pa4-ns bb b--black-10">
-      
-      {{ with .Params.image }}
-        <div class="mb3">
-          <a href="{{ $.RelPermalink }}">
-            <img src="{{ . | relURL }}" class="db w-100 br2 br--top" alt="{{ $.Title }}">
+ <section class="mw7 center pa4">
+    <h1 class="f2 lh-title">Posts</h1>
+
+    {{ range where .Site.RegularPages "Section" "posts" }}
+      <article class="pa3 pa4-ns bb b--black-10">
+        {{ with .Params.image }}
+          <div class="mb3">
+            <a href="{{ $.RelPermalink }}">
+              <img src="{{ . | relURL }}" class="db w-100 br2 br--top" alt="{{ $.Title }}">
+            </a>
+          </div>
+        {{ end }}
+
+        <h2 class="f3 near-black">
+          <a href="{{ .RelPermalink }}" class="link dark-blue hover-hot-pink">
+            {{ .Title }}
           </a>
-        </div>
-      {{ end }}
+        </h2>
 
-      <h2 class="f3 near-black">
-        <a href="{{ .RelPermalink }}" class="link dark-blue hover-hot-pink">
-          {{ .Title }}
+        <p class="lh-copy measure">{{ .Summary }}</p>
+
+        <a href="{{ .RelPermalink }}" class="f6 link dim br-pill ba ph3 pv2 mb2 dib dark-blue">
+          Read More
         </a>
-      </h2>
-
-      <p class="lh-copy measure">
-        {{ .Summary }}
-      </p>
-      
-      <a href="{{ .RelPermalink }}" class="f6 link dim br-pill ba ph3 pv2 mb2 dib dark-blue">
-        Read More
-      </a>
-
-    </article>
-  {{ end }} -->
-
+      </article>
+    {{ end }}
+  </section>
 
 {{ end }}
