@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Virtual Innovation Consortium</title>
-    <link>https://rasinstitute.github.io/vic_project_website/posts/</link>
+    <link>https://vic-eu.com/posts/</link>
     <description>Recent content in Posts on Virtual Innovation Consortium</description>
     <generator>Hugo</generator>
     <language>en-uk</language>
-    <atom:link href="https://rasinstitute.github.io/vic_project_website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vic-eu.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Presentation</title>
-      <link>https://rasinstitute.github.io/vic_project_website/posts/presentation/</link>
+      <link>https://vic-eu.com/posts/presentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rasinstitute.github.io/vic_project_website/posts/presentation/</guid>
+      <guid>https://vic-eu.com/posts/presentation/</guid>
       <description>&lt;p&gt;The project addresses Europe&amp;rsquo;s advanced digital skills gap, focusing on Extended Reality (XR) technologies like Augmented and Virtual Reality. By uniting higher education institutions, VET providers, industry, and research organisations, it will create a specialised Master&amp;rsquo;s Programme (ISCED Level 7, 120 ECTS), an advanced training programme with self-standing modules, and an annual Summer School.&lt;/p&gt;</description>
     </item>
   </channel>

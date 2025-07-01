@@ -77,3 +77,11 @@
 .video-title {
   color: var(--pink);
 }
+
+.vic-pink {
+  color: var(--pink);
+}
+
+.hover-vic-pink:hover {
+  color: var(--pink);
+}
