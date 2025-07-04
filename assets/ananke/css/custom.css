@@ -86,3 +86,14 @@
   color: var(--pink);
 }
 
+.vic-green {
+  color: var(--green);
+}
+
+.vic-gradient {
+  background: linear-gradient(to right, var(--green), var(--pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
